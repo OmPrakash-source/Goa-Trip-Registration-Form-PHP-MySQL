@@ -18,15 +18,7 @@ Responsive Design – Ensures accessibility across devices.
 
 (Technologies Used) :-
 
-PHP
-
-MySQL
-
-HTML5
-
-CSS
-
-JavaScript
+PHP, MySQL, HTML5, CSS, JavaScript
 
 Installation & Setup
 
