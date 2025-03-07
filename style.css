@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    position: relative;
+}
+body::before {
+    content: "";
+    background-image: url('Goa-.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust the opacity value as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+p{
+    font-size: 20px;
+}
+
+#submitmsg{
+    color: green;
+    margin-top: 5px;
+}
+input,textarea{
+    
+    border: 2px,solid,black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    
+}
+.submitbtn{
+    margin-right: 5px;
+    padding: 10px 20px;
+    border-radius: 2px,solid,black;
+    border-radius: 8px;
+    cursor: pointer;
+    color: bisque;
+    background-color: black;
+    
+}
+.resetbtn{
+    margin-left: 5px;
+    padding: 10px 20px;
+    border-radius: 2px,solid,black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: bisque;
+    background-color: black;
+
+}
+
+/* INSERT INTO `trip` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) 
+VALUES 
+('8', 'Omprakash', '19', 'male', 'first@gmail.com', '1234567890', 'this is first php based project', '2025-01-25 18:04:00.000000'), 
+('9', 'hardik', '19', 'male', 'hardik@gmail.com', ('211124472'), 'this is new summery', '2025-01-25 18:04:00.000000'); */
+/*  */
